@@ -67,3 +67,25 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #eef3fa;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.tech {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
