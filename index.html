@@ -3,103 +3,125 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ayush Sharma | Data Portfolio</title>
+
+    <title>Ayush Sharma | Data Engineer Portfolio</title>
+
+    <!-- Google font (modern look) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<header id="hero">
+<!-- HERO -->
+<header class="hero">
     <div class="container">
-        <h1>Ayush <span class="highlight">Sharma</span></h1>
-        <p>Data Analyst & Data Engineer</p>
+        <h1>Ayush Sharma</h1>
+        <p class="subtitle">Data Analyst • Data Engineer • Big Data</p>
 
-        <!-- Only GitHub link now -->
-        <div class="links">
-            <a href="https://github.com/YOUR-GITHUB" target="_blank">GitHub</a>
-        </div>
+        <a class="btn" href="https://github.com/YOUR-GITHUB" target="_blank">
+            View GitHub →
+        </a>
     </div>
 </header>
 
 
-<section>
-    <div class="container">
-        <h2>Summary</h2>
+<!-- ABOUT -->
+<section class="section">
+    <div class="container narrow">
+        <h2>About</h2>
         <p>
-            Data Analyst & Engineer with experience in automating data pipelines, optimizing SQL workflows, and developing dashboards.
-            Skilled in Python, R, SQL, Airflow, Tableau, and cloud platforms with strong foundations in statistical analysis and predictive modeling.
+            Data Analyst & Engineer specializing in ETL pipelines, SQL optimization, and cloud analytics.
+            I design scalable data systems and transform raw datasets into actionable business insights
+            using Python, Airflow, BigQuery, and Tableau.
         </p>
     </div>
 </section>
 
 
-<section>
+<!-- SKILLS -->
+<section class="section alt">
     <div class="container">
-        <h2>Technical Skills</h2>
-        <ul class="skills-list">
-            <li>Python</li><li>SQL</li><li>BigQuery</li><li>Airflow</li>
-            <li>Tableau</li><li>R</li><li>Azure</li><li>Docker</li>
-            <li>MongoDB</li><li>Spark</li><li>Hadoop</li><li>REST APIs</li>
-            <li>Git</li><li>Excel</li><li>JavaScript</li>
-        </ul>
+        <h2>Tech Stack</h2>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>BigQuery</span>
+            <span>Airflow</span>
+            <span>Tableau</span>
+            <span>R</span>
+            <span>Azure</span>
+            <span>Docker</span>
+            <span>Spark</span>
+            <span>MongoDB</span>
+            <span>REST APIs</span>
+            <span>Git</span>
+        </div>
     </div>
 </section>
 
 
-<section>
+<!-- PROJECTS -->
+<section class="section">
     <div class="container">
         <h2>Projects</h2>
 
-        <div class="project-card">
-            <h3>NYC 311 Complaints Data Engineering Project</h3>
-            <p>
-                Built automated ETL pipelines ingesting 1,000+ daily records using Python and Airflow into BigQuery.
-                Optimized SQL queries (30% faster) and built Tableau dashboards for real-time complaint insights.
-            </p>
-        </div>
+        <div class="grid">
 
-        <div class="project-card">
-            <h3>Aerofit Business Analysis</h3>
-            <p>
-                Cleaned and analyzed customer data using Pandas/NumPy and built visualizations to uncover behavioral trends and improve targeting.
-            </p>
-        </div>
+            <div class="card">
+                <h3>NYC 311 Data Pipeline</h3>
+                <p>
+                    Automated ETL ingesting 1,000+ daily records into BigQuery using Python & Airflow.
+                    Optimized queries by 30% and built real-time Tableau dashboards.
+                </p>
+                <p class="tech">Python • Airflow • BigQuery • Tableau</p>
+            </div>
 
-        <div class="project-card">
-            <h3>Electric Vehicle Data Pipeline & Analysis</h3>
-            <p>
-                Processed 120k+ EV records with R & SQL, performed regression analysis, and built dashboards to support policy decisions.
-            </p>
-        </div>
+            <div class="card">
+                <h3>Aerofit Business Analytics</h3>
+                <p>
+                    Cleaned and analyzed customer data with Pandas/NumPy. Built visual insights revealing
+                    behavior trends and improving targeting efficiency.
+                </p>
+                <p class="tech">Python • Pandas • Visualization</p>
+            </div>
 
+            <div class="card">
+                <h3>EV Market Analysis</h3>
+                <p>
+                    Processed 120k+ EV records using R & SQL. Performed regression analysis and created
+                    dashboards influencing infrastructure planning.
+                </p>
+                <p class="tech">R • SQL • ggplot2 • Statistics</p>
+            </div>
+
+        </div>
     </div>
 </section>
 
 
-<section>
-    <div class="container">
+<!-- EXPERIENCE -->
+<section class="section alt">
+    <div class="container narrow">
         <h2>Experience</h2>
-        <h3>Data Analyst — WebCraft IT</h3>
-        <p><em>Jan 2022 – Jan 2023</em></p>
-        <p>
-            Built ETL pipelines, optimized 10M+ row SQL queries, and delivered dashboards that improved reporting efficiency across teams.
-        </p>
+
+        <div class="card">
+            <h3>Data Analyst — WebCraft IT</h3>
+            <p class="date">Jan 2022 – Jan 2023</p>
+            <p>
+                Built ETL pipelines, optimized 10M+ row queries, and developed dashboards that improved
+                reporting efficiency across teams by 40%.
+            </p>
+        </div>
     </div>
 </section>
 
 
-<section>
-    <div class="container">
-        <h2>Education</h2>
-        <p><strong>Trent University</strong> — MSc Big Data Analytics</p>
-        <p><strong>BTech Computer Science & Engineering</strong></p>
-    </div>
-</section>
-
-
+<!-- FOOTER -->
 <footer>
-    <div class="container">
-        © 2026 Ayush Sharma
-    </div>
+    <p>© 2026 Ayush Sharma • Built with GitHub Pages</p>
 </footer>
 
 </body>
